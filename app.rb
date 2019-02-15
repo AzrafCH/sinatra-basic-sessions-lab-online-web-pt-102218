@@ -11,4 +11,8 @@ class App < Sinatra::Base
     erb :'../views/index.erb'
   end
 
+  post '/checkout' do
+
+  end
+
 end
